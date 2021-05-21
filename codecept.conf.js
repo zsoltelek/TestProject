@@ -11,7 +11,11 @@ exports.config = {
     I: './steps_file.js',
     factorialPage1: './TestAutomation/pages/factorialPage.js'
   },
-  mocha: {},
+  mocha: {
+    reporterOptions: {
+      reportDir: './TestAutomation/Report'
+  }
+  },
   bootstrap: null,
   teardown: null,
   hooks: [],

@@ -6,8 +6,8 @@
         "codeceptjs": "codeceptjs run --steps",
         "codeceptjs:ui": "codecept-ui --app",
         "codeceptjs:features:ui": "codecept-ui --app --features",
-        "codeceptjs:tests": "codeceptjs run --tests",
-        "codeceptjs:features": "codeceptjs run --features"
+        "codeceptjs:tests": "codeceptjs run --tests --reporter mochawesome",
+        "codeceptjs:features": "codeceptjs run --features --reporter mochawesome"
     },
     "devDependencies": {
         "@codeceptjs/configure": "^0.6.2",
@@ -15,5 +15,8 @@
         "@codeceptjs/ui": "^0.4.3",
         "codeceptjs": "^3.0.7",
         "playwright": "^1.11.0"
+    },
+    "dependencies": {
+        "mochawesome": "^6.2.2"
     }
 }
