@@ -9,7 +9,7 @@ exports.config = {
   },
   include: {
     I: './steps_file.js',
-    factorialPage: './pages/factorialPage.js'
+    factorialPage: './TestAutomation/pages/factorialPage.js'
   },
   mocha: {},
   bootstrap: null,
@@ -31,6 +31,6 @@ exports.config = {
       enabled: true
     }
   },
-  tests: './tests/*_test.js',
+  tests: './TestAutomation/tests/*_tests.js',
   name: 'TestProject'
 }

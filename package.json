@@ -9,7 +9,8 @@
         "codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples",
         "codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples",
         "codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples",
-        "codeceptjs:features:ui": "codecept-ui --app --features"
+        "codeceptjs:features:ui": "codecept-ui --app --features",
+        "codeceptjs:tests": "codeceptjs run --tests"
     },
     "devDependencies": {
         "@codeceptjs/configure": "^0.6.2",
