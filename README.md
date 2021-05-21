@@ -16,7 +16,7 @@ Folders/files:
 Scripts:
 * "codeceptjs:features": runs the feature files with reporting results
 * "codeceptjs:tests": runs the UI related tests with reporting results
-* Mocha reports are located after test runs in the Report folder
+* Mochawesome reports are located after test runs in the Report folder
 
 ----------------------------------------------------------------------
 
