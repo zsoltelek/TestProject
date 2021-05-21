@@ -17,7 +17,7 @@ exports.config = {
   hooks: [],
   gherkin: {
     features: './TestAutomation/features/*.feature',
-    steps: './TestAutomation/step_definitions/*steps.js',
+    steps: './TestAutomation/step_definitions/*_steps.js',
   },
   plugins: {
     screenshotOnFail: {
@@ -31,6 +31,6 @@ exports.config = {
       enabled: true
     }
   },
-  tests: './TestAutomation/tests/*_tests.js',
+  tests: './TestAutomation/tests/*_test.js',
   name: 'TestProject'
 }

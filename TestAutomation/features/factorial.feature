@@ -25,17 +25,3 @@ Feature: Calculate factorials
             | 5.4   |
             | @!&   |
             | test  |
-
-    Scenario Outline: Navigate to links
-        When I navigate to the "<link>" page
-        Then I can see the "<url>" in the browser
-        And I can see the "<text>" text
-
-        Examples:
-            | link                 | url      | text                                                                                 |
-            | Terms and Conditions | /terms   | This is the terms and conditions document. We are not yet ready with it. Stay tuned! |
-            | Privacy              | /privacy | This is the privacy document. We are not yet ready with it. Stay tuned!              |
-
-    Scenario: Navigate to "QA for startups" page
-        When I click on the "Qxf2 Services" links
-        Then I am navigated to the "QA for startups" page
