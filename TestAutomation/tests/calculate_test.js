@@ -1,4 +1,4 @@
-//const factorialPage = require("../pages/factorialPage");
+const factorialPage = require("../pages/factorialPage");
 
 Feature('Calculator');
 

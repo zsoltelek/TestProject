@@ -1,7 +1,7 @@
 Feature: Calculate factorials
     In order to calculate factorials
     As a user
-    I want to be able to use a factorials calculator
+    I want to be able to use the factorials calculator
 
     Background:
         Given I am on the calculator page
