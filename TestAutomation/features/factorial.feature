@@ -11,10 +11,12 @@ Feature: Calculate factorials
         Then I can see the result is "<result>"
 
         Examples:
-            | number | result |
-            | 0      | 1      |
-            | 5      | 120    |
-            | 8      | 40320  |
+            | number | result                 |
+            | 0      | 1                      |
+            | 5      | 120                    |
+            | 8      | 40320                  |
+            | 59     | 1.3868311854568984e+80 |
+            | 250    | Infinity               |
 
     Scenario Outline: Calculate factorials with non-integers
         When I use the calculator with invalid <input> input

@@ -9,7 +9,7 @@ exports.config = {
   },
   include: {
     I: './steps_file.js',
-    factorialPage: './TestAutomation/pages/factorialPage.js'
+    factorialPage1: './TestAutomation/pages/factorialPage.js'
   },
   mocha: {},
   bootstrap: null,

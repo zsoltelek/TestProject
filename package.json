@@ -4,16 +4,10 @@
     "private": true,
     "scripts": {
         "codeceptjs": "codeceptjs run --steps",
-        "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps",
         "codeceptjs:ui": "codecept-ui --app",
-        "codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples",
-        "codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples",
-        "codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples",
         "codeceptjs:features:ui": "codecept-ui --app --features",
         "codeceptjs:tests": "codeceptjs run --tests",
-        "codeceptjs:features": "codeceptjs run --features",
-        "codeceptjs:tests:headless": "HEADLESS=true codeceptjs run --tests",
-        "codeceptjs:features:headless": "HEADLESS=true codeceptjs run --features"
+        "codeceptjs:features": "codeceptjs run --features"
     },
     "devDependencies": {
         "@codeceptjs/configure": "^0.6.2",

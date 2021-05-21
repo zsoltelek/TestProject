@@ -1,10 +1,10 @@
-const factorialPage = require("../pages/factorialPage");
+//const factorialPage = require("../pages/factorialPage");
 
 Feature('Calculator');
 
 const { I } = inject();
 
-Scenario('navigate to Privacy page', ({ I }) => {
+Scenario('navigate to Privacy page', ({ I, factorialPage }) => {
     I.amOnPage('/');
     I.click(factorialPage.links.privacy);
     I.see('This is the privacy document. We are not yet ready with it. Stay tuned!');
