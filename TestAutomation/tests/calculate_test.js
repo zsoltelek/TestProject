@@ -4,7 +4,7 @@ Feature('Calculator');
 
 const { I } = inject();
 
-Scenario('navigate to Privacy page', ({ I, factorialPage }) => {
+Scenario('navigate to Privacy page', ({ I }) => {
     I.amOnPage('/');
     I.click(factorialPage.links.privacy);
     I.see('This is the privacy document. We are not yet ready with it. Stay tuned!');
